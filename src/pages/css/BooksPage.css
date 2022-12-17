@@ -1,0 +1,81 @@
+#BooksPageCtr {
+    color: white;
+    font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    font-weight: 500;
+}
+
+#BooksPageGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 28px;
+    gap: 36px;
+}
+
+.BooksCard {
+    background-color: #313c6540;
+    border-color: rgb(66, 74, 106);
+}
+
+.BooksCardContent {
+    display: flex;
+    padding: 28px;
+}
+
+.BooksCardTitle {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.BooksCardLeftContent, .BooksCardRightContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.BooksCardRightContent {
+    margin-left: 28px;
+}
+
+.BooksCardPurchaseImageContainerWidescreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding: 20px 8px;
+}
+
+.BooksCardPurchaseImageContainerThinscreen {
+    display: none;
+    justify-content: center;
+    margin: 0px 28px;
+}
+
+.BooksCardImage {
+    width: 16em;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .BooksCardContent {
+        flex-direction: column;
+    }
+
+    .BooksCardRightContent {
+        margin-left: 0px;
+        margin-top: 28px;
+    }
+
+    .BooksCardImage {
+        width: auto;
+    }
+
+    .BooksCardPurchaseImageContainerWidescreen {
+        display: none;
+    }
+
+    .BooksCardPurchaseImageContainerThinscreen {
+        display: flex;
+    }
+}

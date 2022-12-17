@@ -1,0 +1,12 @@
+.NavbarLink {
+    padding: 8px 12px;
+}
+
+.NavbarLinkSelected {
+    background: #297FFF;
+    color: white
+}
+
+#basic-navbar-nav {
+    justify-content: center
+}

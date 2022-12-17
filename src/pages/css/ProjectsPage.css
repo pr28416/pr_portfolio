@@ -1,0 +1,132 @@
+#ProjectsPageCtr {
+    color: white;
+    font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    font-weight: 500;
+}
+
+#ProjectsCard {
+    background-color: #313c6540;
+    border-color: rgb(66, 74, 106);
+    margin-top: 28px;
+}
+
+.ProjectsCardBody {
+    background-color: #313c6540;
+    padding: 28px;
+}
+
+.ProjectsCardTabLink {
+    color: grey;
+}
+
+.card-header-tabs .nav-link.active {
+    background-color: #313c6540;
+    border-left-color: rgb(66, 74, 106);
+    border-top-color: rgb(66, 74, 106);
+    border-right-color: rgb(66, 74, 106);
+    border-bottom-color: #313c6540;
+    color: white;
+}
+
+.ProjectsContentTitle {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#PillolaTopContent {
+    display: flex;
+}
+
+#PillolaTopRight {
+    margin-left: 28px;
+    margin-top: 28px;
+}
+
+#PillolaCAD {
+    width: 20em;
+}
+
+#PillolaLogo {
+    height: 6em;
+}
+
+#PillolaBottomContent {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 36px;
+    gap: 36px;
+}
+
+#PillolaBottomLeft, #PillolaBottomRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PillolaVideo {
+    width: 100%;
+    margin-top: 12px;
+    aspect-ratio: 16/9;
+    border-radius: 12px;
+}
+
+#PillolaFooterButtonRow {
+    display: grid;
+    gap: 36px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 28px;
+}
+
+.PillolaButton {
+    font-weight: 700;
+    background-color: #2780E8;
+    border-color: rgb(66, 74, 106);
+}
+
+@media screen and (max-width: 1200px) {
+    #PillolaCAD {
+        width: 16em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #PillolaTopContent {
+        flex-direction: column;
+    }
+
+    #PillolaTopLeft {
+        margin: auto;
+    }
+
+    #PillolaTopRight {
+        margin: 12px auto auto auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #PillolaTopLeft {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #PillolaCAD {
+        width: 75%;
+        object-fit: contain;
+    }
+
+    #PillolaLogo {
+        width: 75%;
+        object-fit: contain;
+    }
+
+    #PillolaFooterButtonRow {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+}
