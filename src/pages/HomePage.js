@@ -17,7 +17,7 @@ export default function HomePage() {
                     <div id="HomePageBannerContent">
                         <div id="HomePageBannerNameTitle">Pranav Ramesh</div>
                         <div id="HomePageBannerNameSubtitle">
-                            <div style={{ color: "#5CBCE0" }}>CS + Econ&nbsp;</div>
+                            <div style={{ color: "#5CBCE0" }}>Computer Science&nbsp;</div>
                             <div style={{ color: "#E05D5D" }}>@ Harvard College</div>
                         </div>
                         <div id="HomePageBannerButtonRow">
@@ -38,7 +38,7 @@ export default function HomePage() {
                 </div>
                 <div id="HomePageContent">
                     <p style={{ fontWeight: "bold" }}>
-                        Hi! I'm Pranav Ramesh, a first-year undergraduate student at Harvard College studying computer science and economics.
+                        Hi! I'm Pranav Ramesh, a first-year undergraduate student at Harvard College concentrating in computer science with a secondary in economics.
                     </p>
                     <p>
                         I am broadly interested in computer vision, machine learning, and systems architecture, and am <b>looking for a Software Engineering internship for Summer 2023.</b>
