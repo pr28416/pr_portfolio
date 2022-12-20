@@ -73,7 +73,7 @@ export default function ProjectsPage() {
             title: "CalcMolar",
             hash: "#calcmolar",
             body: <Card.Body className="ProjectsCardBody">
-                <Card.Title className="ProjectsContentTitle">Table Tennis CV</Card.Title>
+                <Card.Title className="ProjectsContentTitle">CalcMolar</Card.Title>
                 <Card.Text style={{ lineHeight: 1.75 }}>
                     CalcMolar is a stack RPN molar mass calculator for chemical compounds and molecules. Users can input an empirical formula, and CalcMolar will provide the molar mass (to three decimal places, with extra trailing zeroes). I created this during my AP Chemistry course in my junior year of high school to help my classmates calculate molar masses of complex compounds much quicker for stoichiometry and lab experiments.
                 </Card.Text>
