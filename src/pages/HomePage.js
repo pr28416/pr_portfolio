@@ -41,7 +41,7 @@ export default function HomePage() {
                         Hi! I'm Pranav Ramesh, a first-year undergraduate student at Harvard College concentrating in computer science with a secondary in economics.
                     </p>
                     <p>
-                        I am broadly interested in computer vision, machine learning, and systems architecture, and am <b>looking for a Software Engineering internship for Summer 2023.</b>
+                        I am broadly interested in computer vision, machine learning, and systems architecture, and am <b>looking for a Software Engineering, Software Development, or Data Engineering internship for Summer 2023.</b>
                     </p>
                     <p>
                         I have published five apps to the iOS app store, including <a className="CustomHyperlink" href="/apps">GeoScholar</a>, <a className="CustomHyperlink" href="/apps">Scholar.ly</a>, <a className="CustomHyperlink" href="/apps">GSEF Official</a>, <a className="CustomHyperlink" href="/apps">ReadSpeak</a>, and <a className="CustomHyperlink" href="/apps">Gene Xpress</a>. I have also created a variety of projects across multiple disciplines, such as Pillola, a smart, secure pill dispenser, and Table Tennis CV, computer vision project that tracks active table-tennis gameplay. Additionally, I maintain a YouTube channel, <a className="CustomHyperlink" href="https://www.youtube.com/c/codesavant/">CodeSavant</a>, where I publish videos on algorithms and interesting coding topics, and I have published two books, <a className="CustomHyperlink" href="/books">The Python Starterpack</a> and <a className="CustomHyperlink" href="/books">Java Decaffeinated</a>, on Amazon.
