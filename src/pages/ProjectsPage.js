@@ -31,11 +31,11 @@ export default function ProjectsPage() {
                 <div id="PillolaBottomContent">
                     <div id="PillolaBottomLeft">
                         <Card.Title>Product Promo</Card.Title>
-                        <iframe className="PillolaVideo" src="https://www.youtube.com/embed/X__4-Z4_g2c" title="Pillola Product Promo" />
+                        <iframe className="ProjectsVideo" src="https://www.youtube.com/embed/X__4-Z4_g2c" title="Pillola Product Promo" />
                     </div>
                     <div id="PillolaBottomRight">
                         <Card.Title>Tech Demo</Card.Title>
-                        <iframe className="PillolaVideo" src="https://www.youtube.com/embed/C8vmkxOuVQU" title="Pillola Tech Demo" />
+                        <iframe className="ProjectsVideo" src="https://www.youtube.com/embed/C8vmkxOuVQU" title="Pillola Tech Demo" />
                     </div>
                 </div>
                 <div>
@@ -63,10 +63,34 @@ export default function ProjectsPage() {
                     </p>
                 </Card.Text>
                 <div style={{ display: "flex", justifyContent: "center" }}>
-                    <Button className="PillolaButton" href="https://github.com/pr28416/table-tennis-cv">View computer vision demo code on GitHub</Button>
+                    <Button className="ProjectsButton" href="https://github.com/pr28416/table-tennis-cv">View computer vision demo code on GitHub</Button>
                 </div>
                 <Card.Title style={{ marginTop: "28px" }}>Game Tracking Demo</Card.Title>
                 <iframe style={{ width: "100%", aspectRatio: 16 / 9, borderRadius: "12px", marginTop: "12px" }} className="Table Tennis CV Demo" src="https://www.youtube.com/embed/123YFJ8GRVk" title="Pillola Tech Demo" />
+            </Card.Body>
+        },
+        {
+            title: "Flappy Bird CV",
+            hash: "#flappybirdcv",
+            body: <Card.Body className="ProjectsCardBody">
+                <Card.Title className="ProjectsContentTitle">Flappy Bird CV</Card.Title>
+                <Card.Text style={{ lineHeight: 1.75 }}>Flappy Bird CV is a game implemented in Python and OpenCV where a user uses their face to navigate an on-screen bird around pipes on a screen.</Card.Text>
+                <div style={{ display: "flex", justifyContent: "center" }}>
+                    <Button className="ProjectsButton" href="https://github.com/pr28416/FlappyBirdCV">Click to view full code on GitHub</Button>
+                </div>
+                <iframe className="ProjectsVideo" style={{marginTop: "20px"}} src="https://www.youtube.com/embed/Tm7Iy6_YW1w" title="Flappy Bird CV Demo" />
+            </Card.Body>
+        },
+        {
+            title: "Rock, Paper, Scissors CV",
+            hash: "#rpscv",
+            body: <Card.Body className="ProjectsCardBody">
+                <Card.Title className="ProjectsContentTitle">Rock, Paper, Scissors CV</Card.Title>
+                <Card.Text style={{ lineHeight: 1.75 }}>Rock, Paper, Scissors CV (RPS CV) is a Rock-Paper-Scissors game implemented in Python and OpenCV where two users can play in real-time in front of a webcam and the program will determine what moves were played by each character and who wins.</Card.Text>
+                <div style={{ display: "flex", justifyContent: "center" }}>
+                    <Button className="ProjectsButton" href="https://github.com/pr28416/RockPaperScissors_CV">Click to view full code on GitHub</Button>
+                </div>
+                <iframe className="ProjectsVideo" style={{marginTop: "20px"}} src="https://www.youtube.com/embed/5Hh7tOcgP0U" title="Rock, Paper, Scissors CV Demo" />
             </Card.Body>
         },
         {
@@ -78,7 +102,7 @@ export default function ProjectsPage() {
                     CalcMolar is a stack RPN molar mass calculator for chemical compounds and molecules. Users can input an empirical formula, and CalcMolar will provide the molar mass (to three decimal places, with extra trailing zeroes). I created this during my AP Chemistry course in my junior year of high school to help my classmates calculate molar masses of complex compounds much quicker for stoichiometry and lab experiments.
                 </Card.Text>
                 <div style={{ display: "flex", justifyContent: "center" }}>
-                    <Button className="PillolaButton" href="https://github.com/pr28416/CalcMolar">Click to view full code on GitHub</Button>
+                    <Button className="ProjectsButton" href="https://github.com/pr28416/CalcMolar">Click to view full code on GitHub</Button>
                 </div>
             </Card.Body>
         }
