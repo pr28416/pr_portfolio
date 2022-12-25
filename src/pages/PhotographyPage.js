@@ -22,6 +22,12 @@ export default function PhotographyPage() {
         { height: 4, width: 3, src: "https://drive.google.com/uc?expert=view&id=1-q4ldEiQf50AF3DlfqmD_FLwxhPuFgpS", },
         { height: 4, width: 3, src: "https://drive.google.com/uc?expert=view&id=1-pna9QVUBrhwMEATBUUXM-jAxtqZ3WKl", },
         { height: 3, width: 4, src: "https://drive.google.com/uc?expert=view&id=1-bsF7PsPcm-yNFnrhYRIBBaxyCpdEDpR", },
+        { height: 3, width: 4, src: "https://drive.google.com/uc?expert=view&id=10IhnCLqG-fP0pfAcNpgcjRE9BCIKTRiw", },
+        { height: 4, width: 3, src: "https://drive.google.com/uc?expert=view&id=10Ll9XneaUg9GhTBTOBNkHpGcZkJ89NPc", },
+        { height: 3, width: 4, src: "https://drive.google.com/uc?expert=view&id=10QdhcJSLU0ABkhKnqgtIzdXCNj7tzy6m", },
+        { height: 4, width: 3, src: "https://drive.google.com/uc?expert=view&id=10MH91Hh_CUODZHXewPYXrhV7g2EhSr3j", },
+        { height: 3, width: 4, src: "https://drive.google.com/uc?expert=view&id=10O4TTsrAOuN846URwtqYdX0msw2XL8ez", },
+        
     ]
     
     return (
