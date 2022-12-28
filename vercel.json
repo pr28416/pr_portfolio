@@ -2,27 +2,33 @@
     "redirects": [
         {
             "source": "/thepythonstarterpack",
-            "destination": "http://amazon.com/Python-Starterpack-Simple-Introduction/dp/B0874PCH1J/"
+            "destination": "http://amazon.com/Python-Starterpack-Simple-Introduction/dp/B0874PCH1J/",
+            "permanent": true
         },
         {
             "source": "/javadecaffeinated",
-            "destination": "http://amazon.com/Java-Decaffeinated-Simple-Introduction/dp/B09K5TQWKC/"
+            "destination": "http://amazon.com/Java-Decaffeinated-Simple-Introduction/dp/B09K5TQWKC/",
+            "permanent": true
         },
         {
             "source": "/algospec1",
-            "destination": "http://www.coursera.org/account/accomplishments/certificate/TVSZEDGE45XS"
+            "destination": "http://www.coursera.org/account/accomplishments/certificate/TVSZEDGE45XS",
+            "permanent": true
         },
         {
             "source": "/algospec2",
-            "destination": "http://www.coursera.org/account/accomplishments/certificate/8J29KCWZYQAY"
+            "destination": "http://www.coursera.org/account/accomplishments/certificate/8J29KCWZYQAY",
+            "permanent": true
         },
         {
             "source": "/algospec3",
-            "destination": "http://www.coursera.org/account/accomplishments/certificate/8PB2UFWXEEKS"
+            "destination": "http://www.coursera.org/account/accomplishments/certificate/8PB2UFWXEEKS",
+            "permanent": true
         },
         {
             "source": "/algospec4",
-            "destination": "http://www.coursera.org/account/accomplishments/certificate/MJ9RL2JNEU26/"
+            "destination": "http://www.coursera.org/account/accomplishments/certificate/MJ9RL2JNEU26/",
+            "permanent": true
         }
     ]
 }
