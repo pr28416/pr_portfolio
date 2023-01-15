@@ -86,13 +86,46 @@
     border-color: rgb(66, 74, 106);
 }
 
+#OkaySoLogoBackground {
+    display: flex;
+    margin-bottom: 16px;
+    height: 80px;
+}
+
+#OkaySoLogo {
+    margin-left: 12px;
+}
+
+#OkaySoVideoDemoBody {
+    display: flex;
+}
+
+#MarginedProjectsVideo {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 @media screen and (max-width: 1200px) {
     #PillolaCAD {
         width: 16em;
     }
+
+    #OkaySoVideoDemoBody {
+        flex-direction: column;
+    }
+
+    #MarginedProjectsVideo {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
+
+    #OkaySoLogoBackground {
+        justify-content: center;
+    }
+
     #PillolaTopContent {
         flex-direction: column;
     }
@@ -110,6 +143,21 @@
 }
 
 @media screen and (max-width: 800px) {
+    #OkaySoLogoBackground {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    #OkaySoAppIcon {
+        width: 25%;
+    }
+
+    #OkaySoLogo {
+        width: 75%;
+        margin-top: 8px;
+    }
+
     #PillolaTopLeft {
         display: flex;
         justify-content: center;

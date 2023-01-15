@@ -7,6 +7,8 @@ import PillolaCAD from '../assets/pillola/new-pillbuddy-assembly-c2-v39-white_or
 import PillolaBanner from '../assets/pillola/pillola-main_orig.jpeg'
 import PillolaLogo from '../assets/pillola/pillola-dark.png'
 import PillolaExecPaper from '../assets/pillola/m_tsi_executive_summary_for_pillola.pdf'
+import OkaySoLogo from '../assets/okayso/okayso_logo_dark.png'
+import OkaySoAppIcon from '../assets/okayso/App_Store_OkaySo_Logo.png'
 
 export default function ProjectsPage() {
 
@@ -14,6 +16,24 @@ export default function ProjectsPage() {
     let [pageIndex, setPageIndex] = useState(0)
 
     const pages = [
+        {
+            title: "OkaySo",
+            hash: "#okayso",
+            body: <Card.Body className="ProjectsCardBody">
+                <div id="OkaySoLogoBackground">
+                    <Image id="OkaySoAppIcon" src={OkaySoAppIcon}/>
+                    <Image id="OkaySoLogo" src={OkaySoLogo}/>
+                </div>
+                <Card.Text style={{lineHeight: 1.75}}>
+                In my freshman fall semester at Harvard, I collaborated with fellow social tech entrepreneurs to develop a web platform for OkaySo. OkaySo is a nonprofit initiative that provides a safe space for young adults to anonymously ask questions to experts regarding mental health, identity, relationships, and more. These are topics that many young adults have questions about as they grow older but do not feel comfortable doing so publicly and need authentic, educated advice. However, we found that current online solutions, including OkaySo, were not as readily accessible to both inquirers and experts. Working with OkaySo, we created a React/Node.js-powered web app where experts can efficiently respond to user inquiries and facilitate seamless, secure, message-based conversations with those whom they are helping. As part of our efforts, we were able to substantially increase the team's user base and user satisfaction with expert replies, bringing us one step closer to improving health education.
+                </Card.Text>
+                <div id="OkaySoVideoDemoBody">
+                    <iframe className="ProjectsVideo" src="https://www.youtube.com/embed/ZOuKL-2t-68" title="OkaySo Authentication Demo" />
+                    <iframe className="ProjectsVideo" id="MarginedProjectsVideo" src="https://www.youtube.com/embed/TRosPNnx7fk" title="OkaySo Live Chat Demo" />
+                    <iframe className="ProjectsVideo" src="https://www.youtube.com/embed/MOTvOn-tx0Y" title="OkaySo Error Handling & Contact Us Demo" />
+                </div>
+            </Card.Body>
+        },
         {
             title: "Pillola",
             hash: "#pillola",
