@@ -38,7 +38,7 @@ export default function HomePage() {
                 </div>
                 <div id="HomePageContent">
                     <p style={{ fontWeight: "bold" }}>
-                        Hi! I'm Pranav Ramesh, a first-year undergraduate student at Harvard College concentrating in computer science with a secondary in economics.
+                        Hi! I'm Pranav Ramesh, a first-year undergraduate student at Harvard College concentrating in computer science with a secondary in statistics.
                     </p>
                     <p>
                         I am broadly interested in computer vision, machine learning, and systems architecture, and am <b>looking for a Software Engineering, Software Development, or Data Engineering internship for Summer 2023.</b>
