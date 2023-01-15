@@ -1,9 +1,9 @@
 import React from 'react'
 import PageBanner from '../components/PageBanner'
 import PageNavCtrl from '../components/PageNavCtrl'
-import PythonBookImage from '../assets/python-starterpack-front-cover_orig.png'
-import JavaBookImage from '../assets/java-decaffeinated-front-cover_orig.jpg'
-import BuyOnAmazonImage from '../assets/order-at-amazon_orig.png'
+import PythonBookImage from '../assets/books/python-starterpack-front-cover_orig.png'
+import JavaBookImage from '../assets/books/java-decaffeinated-front-cover_orig.jpg'
+import BuyOnAmazonImage from '../assets/books/order-at-amazon_orig.png'
 import { Card, Image } from 'react-bootstrap'
 import './css/BooksPage.css'
 
