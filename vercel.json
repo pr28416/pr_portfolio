@@ -29,6 +29,11 @@
             "source": "/algospec4",
             "destination": "http://www.coursera.org/account/accomplishments/certificate/MJ9RL2JNEU26/",
             "permanent": true
+        },
+        {
+            "source": "/suhanee",
+            "destination": "https://www.merriam-webster.com/dictionary/love",
+            "permanent": true
         }
     ]
 }
