@@ -9,6 +9,7 @@ import PillolaLogo from '../assets/pillola/pillola-dark.png'
 import PillolaExecPaper from '../assets/pillola/m_tsi_executive_summary_for_pillola.pdf'
 import OkaySoLogo from '../assets/okayso/okayso_logo_dark.png'
 import OkaySoAppIcon from '../assets/okayso/App_Store_OkaySo_Logo.png'
+import COBIcon from '../assets/cob/innovation_and_technology_logo.png'
 
 export default function ProjectsPage() {
 
@@ -17,15 +18,29 @@ export default function ProjectsPage() {
 
     const pages = [
         {
+            title: "City of Boston Visual Analytics",
+            hash: "#cob_visualanalytics",
+            body: <Card.Body className="ProjectsCardBody">
+                <div id="COBVA_LogoBackground">
+                    <Image id="COBIcon" src={COBIcon} />
+                    <Card.Title className="ProjectsContentTitle">City of Boston - Visual Analytics</Card.Title>
+                </div>
+                <Card.Text style={{ lineHeight: 1.75 }}>
+                    In my freshman spring semester at Harvard, I led a group of fellow software engineering students to develop the Visual Analytics portal for City of Boston. The Visual Analytics portal compiles the public data from the City of Boston's Checkbook Explorer into a comprehensive data visualization tool that allows anyone to become better informed on spending by the City of Boston. This tool improves over the existing site which simply provides CSV data for users, potentially being inaccessible to users who are not experts in data analysis tools like Excel. Working with the City of Boston, we developed a React/Django-powered web app where users can view total spending across different years, view departmental spending, analyze how spending has changed over time, and peruse vendor-specific spending. Through this portal, the City of Boston's spending is more transparent and accessible to Boston citizens.
+                </Card.Text>
+                <iframe className="ProjectsVideo" style={{ marginTop: "20px" }} src="https://www.youtube.com/embed/0QdFgUVkTl8" title="City of Boston Visual Analytics Demo" />
+            </Card.Body>
+        },
+        {
             title: "OkaySo",
             hash: "#okayso",
             body: <Card.Body className="ProjectsCardBody">
                 <div id="OkaySoLogoBackground">
-                    <Image id="OkaySoAppIcon" src={OkaySoAppIcon}/>
-                    <Image id="OkaySoLogo" src={OkaySoLogo}/>
+                    <Image id="OkaySoAppIcon" src={OkaySoAppIcon} />
+                    <Image id="OkaySoLogo" src={OkaySoLogo} />
                 </div>
-                <Card.Text style={{lineHeight: 1.75}}>
-                In my freshman fall semester at Harvard, I collaborated with fellow social tech entrepreneurs to develop a web platform for OkaySo. OkaySo is a nonprofit initiative that provides a safe space for young adults to anonymously ask questions to experts regarding mental health, identity, relationships, and more. These are topics that many young adults have questions about as they grow older but do not feel comfortable doing so publicly and need authentic, educated advice. However, we found that current online solutions, including OkaySo, were not as readily accessible to both inquirers and experts. Working with OkaySo, we created a React/Node.js-powered web app where experts can efficiently respond to user inquiries and facilitate seamless, secure, message-based conversations with those whom they are helping. As part of our efforts, we were able to substantially increase the team's user base and user satisfaction with expert replies, bringing us one step closer to improving health education.
+                <Card.Text style={{ lineHeight: 1.75 }}>
+                    In my freshman fall semester at Harvard, I collaborated with fellow social tech entrepreneurs to develop a web platform for OkaySo. OkaySo is a nonprofit initiative that provides a safe space for young adults to anonymously ask questions to experts regarding mental health, identity, relationships, and more. These are topics that many young adults have questions about as they grow older but do not feel comfortable doing so publicly and need authentic, educated advice. However, we found that current online solutions, including OkaySo, were not as readily accessible to both inquirers and experts. Working with OkaySo, we created a React/Node.js-powered web app where experts can efficiently respond to user inquiries and facilitate seamless, secure, message-based conversations with those whom they are helping. As part of our efforts, we were able to substantially increase the team's user base and user satisfaction with expert replies, bringing us one step closer to improving health education.
                 </Card.Text>
                 <div id="OkaySoVideoDemoBody">
                     <iframe className="ProjectsVideo" src="https://www.youtube.com/embed/ZOuKL-2t-68" title="OkaySo Authentication Demo" />
@@ -98,7 +113,7 @@ export default function ProjectsPage() {
                 <div style={{ display: "flex", justifyContent: "center" }}>
                     <Button className="ProjectsButton" href="https://github.com/pr28416/FlappyBirdCV">Click to view full code on GitHub</Button>
                 </div>
-                <iframe className="ProjectsVideo" style={{marginTop: "20px"}} src="https://www.youtube.com/embed/Tm7Iy6_YW1w" title="Flappy Bird CV Demo" />
+                <iframe className="ProjectsVideo" style={{ marginTop: "20px" }} src="https://www.youtube.com/embed/Tm7Iy6_YW1w" title="Flappy Bird CV Demo" />
             </Card.Body>
         },
         {
@@ -110,7 +125,7 @@ export default function ProjectsPage() {
                 <div style={{ display: "flex", justifyContent: "center" }}>
                     <Button className="ProjectsButton" href="https://github.com/pr28416/RockPaperScissors_CV">Click to view full code on GitHub</Button>
                 </div>
-                <iframe className="ProjectsVideo" style={{marginTop: "20px"}} src="https://www.youtube.com/embed/5Hh7tOcgP0U" title="Rock, Paper, Scissors CV Demo" />
+                <iframe className="ProjectsVideo" style={{ marginTop: "20px" }} src="https://www.youtube.com/embed/5Hh7tOcgP0U" title="Rock, Paper, Scissors CV Demo" />
             </Card.Body>
         },
         {

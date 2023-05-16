@@ -86,6 +86,20 @@
     border-color: rgb(66, 74, 106);
 }
 
+#COBVA_LogoBackground {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 16px;
+}
+
+#COBIcon {
+    height: 72px;
+    background-color: white;
+    border-radius: 25%;
+    padding: 10px;
+}
+
 #OkaySoLogoBackground {
     display: flex;
     margin-bottom: 16px;
@@ -150,6 +164,10 @@
     }
 
     #OkaySoAppIcon {
+        width: 25%;
+    }
+
+    #COBIcon {
         width: 25%;
     }
 
